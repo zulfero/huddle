@@ -5,7 +5,7 @@ nav {
   height: 100vh;
   .nav__content {
     // @include flex( space-between,center);
-    @include flex(space-between,center);
+    @include flex(space-between, center);
     padding: 2em 0;
     .nav__button button {
       padding: 1em;
@@ -21,10 +21,24 @@ nav {
   }
 
   .hero__section {
-    @include flex(space-between,center);
-    .hero__paragraph h1{
-      font-size: x-large;
-      font-weight: bolder;
-  }
+    @include flex(space-between, center);
+    
+    .h1{
+      font-size:2rem;
+      font-weight: 3rem;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .p1{
+font-size:large;
+    }
+    .button{
+      padding: 2em;
+      margin-top: 2em;
+      padding-left: 7em;
+      padding-right: 7em;
+      border-radius: 4em;
+      background-color: hsl(322, 100%, 66%);
+      color:black;
+    }
   }
 }
