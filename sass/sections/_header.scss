@@ -1,6 +1,30 @@
+@use "../utilities/mixins" as *;
+// @use "../utilities/mixins";
+nav {
+  background-image: url("../images/bg-hero-desktop.svg");
+  height: 100vh;
+  .nav__content {
+    // @include flex( space-between,center);
+    @include flex(space-between,center);
+    padding: 2em 0;
+    .nav__button button {
+      padding: 1em;
+      padding-left: 4em;
+      padding-right: 4em;
+      border-radius: 2em;
 
-@use "../utilities/mixins"
-@use "../utilities/mixins";
+      background-color: white;
+      color: black;
+      font-size: larger;
+      font-weight: bold;
+    }
+  }
 
-
-
+  .hero__section {
+    @include flex(space-between,center);
+    .hero__paragraph h1{
+      font-size: x-large;
+      font-weight: bolder;
+  }
+  }
+}

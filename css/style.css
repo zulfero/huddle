@@ -1,5 +1,44 @@
+nav {
+  background-image: url("../images/bg-hero-desktop.svg");
+  height: 100vh;
+}
+nav .nav__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 2em 0;
+}
+nav .nav__content .nav__button button {
+  padding: 1em;
+  padding-left: 4em;
+  padding-right: 4em;
+  border-radius: 2em;
+  background-color: white;
+  color: black;
+  font-size: larger;
+  font-weight: bold;
+}
+nav .hero__section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+nav .hero__section .hero__paragraph h1 {
+  font-size: x-large;
+  font-weight: bolder;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
 }
