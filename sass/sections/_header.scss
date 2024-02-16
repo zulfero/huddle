@@ -1,6 +1,39 @@
 
-@use "../utilities/mixins"
 @use "../utilities/mixins";
+@use "../utilities/variables";
+
+
+.hero{
+    height: 100vh;
+    @include mixins.flex(center,center);
+
+    &__grow{
+            box-shadow: -1px -1px 1px 1px;
+            &-info{
+                @include mixins.flex(space-between,center);
+            }
+            // &-info p{
+            //     font-size:1em;
+            //     text-align: center;
+            //     @include mixins.flex(space-between,wrap)
+            // }
+            
+}
+&__converse{
+    box-shadow:1px 1px 1px 1px;
+    @include mixins.flex(space-between,center);
+    line-height: 2em;
+
+}
+
+&__users{
+    box-shadow{
+        box-shadow:1px 1px 1px;
+    }
+}
 
 
 
+    
+
+}
