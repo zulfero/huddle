@@ -4,33 +4,29 @@
 
 
 .hero{
-    height: 100vh;
-    @include mixins.flex(center,center);
+    
+    // @include mixins.flex(space-between,center);
 
-    &__grow{
-            box-shadow: -1px -1px 1px 1px;
-            &-info{
-                @include mixins.flex(space-between,center);
+    &__card{
+        @include mixins.flex(space-between,center);
+            box-shadow: 0px 0px 5px lightgray;
+            padding:2em 5em;
+            div{
+                flex: 1;
+                
             }
-            // &-info p{
-            //     font-size:1em;
-            //     text-align: center;
-            //     @include mixins.flex(space-between,wrap)
-            // }
+            div:last-child{
+                @include mixins.flex(center,center);
+            }
             
+                
+                
+                  
+                
+                           
 }
-&__converse{
-    box-shadow:1px 1px 1px 1px;
-    @include mixins.flex(space-between,center);
-    line-height: 2em;
 
-}
 
-&__users{
-    box-shadow{
-        box-shadow:1px 1px 1px;
-    }
-}
 
 
 
