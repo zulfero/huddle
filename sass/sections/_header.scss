@@ -3,28 +3,25 @@
 @use "../utilities/variables";
 
 
-.hero{
+.main{
     
-    // @include mixins.flex(space-between,center);
+   
 
     &__card{
         @include mixins.flex(space-between,center);
             box-shadow: 0px 0px 5px lightgray;
-            padding:2em 5em;
+            // padding:2em 5em;
             div{
                 flex: 1;
                 
             }
             div:last-child{
                 @include mixins.flex(center,center);
-            }
-            
-                
-                
-                  
-                
+            } 
+                 
                            
 }
+
 
 
 

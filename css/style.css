@@ -1,16 +1,15 @@
-.hero__card {
+.main__card {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
   box-shadow: 0px 0px 5px lightgray;
-  padding: 2em 5em;
 }
-.hero__card div {
+.main__card div {
   flex: 1;
 }
-.hero__card div:last-child {
+.main__card div:last-child {
   display: flex;
   justify-content: center;
   align-items: center;
